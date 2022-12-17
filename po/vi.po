@@ -250,7 +250,7 @@ msgid "Installing..."
 msgstr "Đang cài đặt..."
 
 #: vanilla_installer/gtk/progress.ui:81
-msgid "Show Console output"
+msgid "Show Console ouput"
 msgstr "Hiển thị đầu ra của Bảng điều khiển"
 
 #: vanilla_installer/gtk/progress.ui:96

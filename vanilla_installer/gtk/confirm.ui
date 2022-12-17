@@ -25,7 +25,7 @@
                                             <object class="AdwPreferencesGroup">
                                                 <child>
                                                     <object class="GtkButton" id="btn_confirm">
-                                                        <property name="label" translatable="true">Install PikaOS</property>
+                                                        <property name="label" translatable="true">Install Vanilla OS</property>
                                                         <property name="valign">center</property>
                                                         <property name="halign">center</property>
                                                         <style>

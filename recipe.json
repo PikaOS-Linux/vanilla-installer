@@ -1,14 +1,19 @@
 {
-    "log_file": "/var/log/vanilla-installer.log",
-    "distro_name": "PikaOS",
-    "distro_logo": "pika-logo", 
+    "log_file": "/etc/vanilla/installer.log",
+    "distro_name": "Vanilla OS",
+    "distro_logo": "org.vanillaos.Installer", 
+    "pre_run": [
+        "sudo apx --sys update", 
+        "sudo apx --sys install -f"
+    ],
     "post_run": [
-        "mv -f /etc/gdm3/custom.conf.orig /etc/gdm3/custom.conf"
+        "sudo apx --sys update", 
+        "sudo apx --sys install -f"
     ],
     "tour": {
         "welcome": {
             "resource": "/org/vanillaos/Installer/assets/welcome.svg",
-            "title": "Welcome to PikaOS",
+            "title": "Welcome to Vanilla",
             "description": "Designed to last over time and always be faithful to you."
        },
        "control": {

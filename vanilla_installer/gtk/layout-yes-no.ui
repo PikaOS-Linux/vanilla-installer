@@ -43,7 +43,7 @@
                             </child>
                             <child>
                                 <object class="GtkButton" id="btn_info">
-                                <property name="icon-name">dialog-information</property>
+                                <property name="icon-name">dialog-information-symbolic</property>
                                 <property name="visible">false</property>
                                 <style>
                                     <class name="flat" />

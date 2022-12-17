@@ -10,6 +10,7 @@
     <img src="data/screenshot.png">
 </div>
 
+
 ## Build
 ### Dependencies
 - build-essential
@@ -41,8 +42,3 @@ vanilla-installer
 Place a new recipe in `/etc/vanilla-installer/recipe.json` or launch the
 utility with the `VANILLA_CUSTOM_RECIPE` environment variable set to the path
 of the recipe.
-
-## Not on Vanilla OS?
-Currently, the installer only supports Vanilla OS due to some specific
-tasks that are performed during installation. Supporting other distros
-is planned for the future.

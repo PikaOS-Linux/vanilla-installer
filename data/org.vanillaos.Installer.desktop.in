@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=PikaOS Installer
+Name=Vanilla OS Installer
 Exec=vanilla-installer
-Icon=pika-logo
+Icon=org.vanillaos.Installer
 Terminal=false
 Type=Application
 Categories=GTK;

@@ -46,22 +46,22 @@
                                 </child>
                                 <child>
                                     <object class="AdwExpanderRow">
-                                        <property name="sensitive">true</property>
                                         <property name="title">Manual Partitioning</property>
                                         <property name="subtitle">Choose how to partition the disk</property>
                                         <child type="prefix">
                                             <object class="GtkCheckButton" id="chk_manual_part">
+                                                <property name="valign">center</property>
                                             </object>
                                         </child>
                                         <child>
                                             <object class="AdwActionRow">
-                                                <property name="icon-name">drive-harddisk</property>
+                                                <property name="icon-name">vanilla-installer-harddisk-symbolic</property>
                                                 <property name="title" translatable="yes">Open GParted</property>
                                                 <property name="subtitle" translatable="yes">Open GParted to manually partition the disk</property>
                                                 <property name="activatable">true</property>
                                                 <child type="suffix">
                                                     <object class="GtkButton" id="launch_gparted">
-                                                        <property name="icon-name">adw-external-link</property>
+                                                        <property name="icon-name">adw-external-link-symbolic</property>
                                                         <property name="valign">center</property>
                                                         <property name="halign">center</property>
                                                         <style>
