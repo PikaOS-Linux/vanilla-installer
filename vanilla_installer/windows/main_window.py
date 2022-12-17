@@ -126,4 +126,4 @@ class VanillaWindow(Adw.ApplicationWindow):
 
     def set_installation_result(self, result, terminal):
        self.__view_done.set_result(result, terminal)
-        self.next()
+       self.next()
