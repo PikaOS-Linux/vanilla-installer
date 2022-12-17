@@ -1,6 +1,5 @@
-vanilla-installer (0.2.12) kinetic; urgency=low
+vanilla-installer (0.2.12~99pika1) kinetic; urgency=low
 
-  * Rewrite from scratch to support custom recipes and
-    to be more modular.
-
- -- Mirko Brombin <send@mirko.pm>  Thu, 20 Sep 2022 22:01:00 +0000
+  * Initial release.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
