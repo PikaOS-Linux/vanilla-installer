@@ -80,9 +80,9 @@ class Processor:
                         arguments += ["-b", f"'{value['auto']['disk']}'"]
                         arguments += ["-t", "'{}:gpt'".format(value["auto"]["disk"])]
                         arguments += ["-n", "'{}:primary:start:512M:fat32:mount=/boot/efi:flags=esp'".format(value["auto"]["disk"])]
-                        arguments += ["-n", "'{}:primary:512M:1024M:ext4:mount=/boot'".format(value["auto"]["disk"])]
-                        arguments += ["-n", "'{}:primary:1536M:-{}M:btrfs:mount=/'".format(value["auto"]["disk"], Processor.gen_swap_size())]
-                        arguments += ["-n", "'{}:primary:-{}M:end:swap'".format(value["auto"]["disk"], Processor.gen_swap_size())]
+                        arguments += ["-n", "'{}:primary:512M:4096M:ext4:mount=/boot'".format(value["auto"]["disk"])]
+                        arguments += ["-n", "'{}:primary:4096M:end:btrfs:mount=/'".format(value["auto"]["disk"], Processor.gen_swap_size())]
+                        #arguments += ["-n", "'{}:primary:-{}M:end:swap'".format(value["auto"]["disk"], Processor.gen_swap_size())]
                     else:
                         for partition, values in value.items():
                             if partition == "disk":
