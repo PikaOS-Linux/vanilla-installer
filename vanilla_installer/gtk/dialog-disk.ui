@@ -55,13 +55,13 @@
                                         </child>
                                         <child>
                                             <object class="AdwActionRow">
-                                                <property name="icon-name">vanilla-installer-harddisk-symbolic</property>
+                                                <property name="icon-name">device-harddisk</property>
                                                 <property name="title" translatable="yes">Open GParted</property>
                                                 <property name="subtitle" translatable="yes">Open GParted to manually partition the disk</property>
                                                 <property name="activatable">true</property>
                                                 <child type="suffix">
                                                     <object class="GtkButton" id="launch_gparted">
-                                                        <property name="icon-name">adw-external-link-symbolic</property>
+                                                        <property name="icon-name">adw-external-link</property>
                                                         <property name="valign">center</property>
                                                         <property name="halign">center</property>
                                                         <style>
