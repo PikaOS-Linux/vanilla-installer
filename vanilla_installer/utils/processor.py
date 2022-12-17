@@ -81,7 +81,7 @@ class Processor:
                         arguments += ["-t", "'{}:gpt'".format(value["auto"]["disk"])]
                         arguments += ["-n", "'{}:primary:start:1024M:fat32:mount=/boot/efi:flags=esp'".format(value["auto"]["disk"])]
                         arguments += ["-n", "'{}:primary:1024M:2048M:ext4:mount=/boot'".format(value["auto"]["disk"])]
-                        arguments += ["-n", "'{}:primary:-{}M:end:btrfs:mount=/'".format(value["auto"]["disk"])]
+                        arguments += ["-n", "'{}:primary:2049M:end:btrfs:mount=/'".format(value["auto"]["disk"])]
                         #arguments += ["-n", "'{}:primary:43008M:end:btrfs:mount=/home'".format(value["auto"]["disk"])]
                         #arguments += ["-n", "'{}:primary:-{}M:end:swap'".format(value["auto"]["disk"], Processor.gen_swap_size())]
                     else:
