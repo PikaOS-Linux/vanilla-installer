@@ -82,8 +82,8 @@ class Processor:
                         arguments += ["-n", "'{}:primary:start:1024M:fat32:mount=/boot/efi:flags=esp'".format(value["auto"]["disk"])]
                         arguments += ["-n", "'{}:primary:1024M:2048M:ext4:mount=/boot'".format(value["auto"]["disk"])]
                         arguments += ["-n", "'{}:primary:29000M:end:btrfs:mount=/'".format(value["auto"]["disk"])]
-#                        arguments += ["-n", "'{}:primary:43008M:end:btrfs:mount=/home'".format(value["auto"]["disk"])]
-                       #  arguments += ["-n", "'{}:primary:-{}M:end:swap'".format(value["auto"]["disk"], Processor.gen_swap_size())]
+                        #arguments += ["-n", "'{}:primary:43008M:end:btrfs:mount=/home'".format(value["auto"]["disk"])]
+                        #arguments += ["-n", "'{}:primary:-{}M:end:swap'".format(value["auto"]["disk"], Processor.gen_swap_size())]
                     else:
                         for partition, values in value.items():
                             if partition == "disk":
@@ -118,12 +118,10 @@ class Processor:
                 f.write("echo '----------------------------------'\n")
                 f.write("sleep 5\n")
                 f.write("exit 1\n")
-            elif "VANILLA_SKIP_INSTALL" not in os.environ:
+            else:   
                 for arg in arguments:
                     f.write(arg + " ")
 
-
-            f.write("\necho 'Post installation is running in background. Please wait ...'\n")
 
             f.flush()
             f.close()
