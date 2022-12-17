@@ -85,7 +85,7 @@
                         <property name="margin-end">40</property>
                         <property name="margin-start">12</property>
                         <property name="margin-top">40</property>
-                        <property name="icon-name">media-view-subtitles-symbolic</property>
+                        <property name="icon-name">media-view-subtitles</property>
                         <property name="halign">end</property>
                         <property name="valign">center</property>
                         <property name="tooltip-text" translatable="yes">Show Console output</property>
@@ -100,7 +100,7 @@
                         <property name="margin-end">40</property>
                         <property name="margin-start">12</property>
                         <property name="margin-top">40</property>
-                        <property name="icon-name">image-x-generic-symbolic</property>
+                        <property name="icon-name">image-x-generic</property>
                         <property name="halign">end</property>
                         <property name="valign">center</property>
                         <property name="tooltip-text" translatable="yes">Show Slideshow</property>

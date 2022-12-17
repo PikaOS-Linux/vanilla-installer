@@ -29,7 +29,7 @@
                         </child>
                         <child>
                             <object class="AdwStatusPage" id="status_page">
-                                <property name="icon-name">preferences-desktop-locale-symbolic</property>
+                                <property name="icon-name">preferences-desktop-locale</property>
                                 <property name="title" translatable="yes">Language</property>
                                 <property name="description" translatable="yes">Select your language</property>
                                 <child>
