@@ -33,9 +33,9 @@ class VanillaDefaultDiskEntry(Adw.ActionRow):
         self.__disk = disk
         self.set_title(disk.name)
 
-        if disk.size < 50000000000:
+        if disk.size < 20000000000:
             self.set_sensitive(False)
-            self.set_subtitle(_("Not enough space: {0}/{1}").format(disk.pretty_size, "50 GB"))
+            self.set_subtitle(_("Not enough space: {0}/{1}").format(disk.pretty_size, "20 GB"))
         else:
             self.set_subtitle(disk.pretty_size)
             self.chk_button.set_group(chk_group)

@@ -15,7 +15,7 @@
                         <property name="halign">center</property>
                         <child>
                             <object class="GtkImage">
-                                <property name="icon-name">vanilla-logo-text</property>
+                                <property name="icon-name">ubuntu-logo-text.png</property>
                                 <property name="pixel-size">192</property>
                             </object>
                         </child>
@@ -42,13 +42,13 @@
                                                 <property name="halign">center</property>
                                                 <child>
                                                     <object class="GtkImage">
-                                                        <property name="icon-name">vanilla-installer-display-with-window-symbolic</property>
+                                                        <property name="icon-name">drive-cdrom</property>
                                                         <property name="pixel-size">74</property>
                                                     </object>
                                                 </child>
                                                 <child>
                                                     <object class="GtkLabel">
-                                                        <property name="label" translatable="yes">Try Vanilla OS</property>
+                                                        <property name="label" translatable="yes">Try PikaOS Live Session</property>
                                                         <style>
                                                             <class name="title-4"/>
                                                         </style>
@@ -77,13 +77,13 @@
                                                 <property name="halign">center</property>
                                                 <child>
                                                     <object class="GtkImage">
-                                                        <property name="icon-name">vanilla-installer-harddisk-symbolic</property>
+                                                        <property name="icon-name">drive-harddisk</property>
                                                         <property name="pixel-size">74</property>
                                                     </object>
                                                 </child>
                                                 <child>
                                                     <object class="GtkLabel">
-                                                        <property name="label" translatable="yes">Install Vanilla OS</property>
+                                                        <property name="label" translatable="yes">Install PikaOS to your Disk</property>
                                                         <style>
                                                             <class name="title-4"/>
                                                         </style>
