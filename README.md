@@ -1,3 +1,7 @@
+# ⚠️ Archived ⚠️
+We figure out our calamares issues so no need for this anymore
+also it's buggy and has no manual partitioning....
+
 <div align="center">
     <img src="data/icons/hicolor/scalable/apps/org.vanillaos.Installer.svg" height="64">
     <h1>Vanilla OS Installer</h1>
